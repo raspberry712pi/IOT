@@ -1,0 +1,40 @@
+Pin 1: 3.3V Power
+Pin 2: 5V Power
+Pin 3: GPIO 2 (SDA) - I²C Data
+Pin 4: 5V Power
+Pin 5: GPIO 3 (SCL) - I²C Clock
+Pin 6: Ground (GND)
+Pin 7: GPIO 4
+Pin 8: GPIO 14 (TX) - UART Transmit
+Pin 9: Ground (GND)
+Pin 10: GPIO 15 (RX) - UART Receive
+Pin 11: GPIO 17
+Pin 12: GPIO 18 - PWM
+Pin 13: GPIO 27
+Pin 14: Ground (GND)
+Pin 15: GPIO 22
+Pin 16: GPIO 23
+Pin 17: 3.3V Power
+Pin 18: GPIO 24
+Pin 19: GPIO 10 (MOSI) - SPI
+Pin 20: Ground (GND)
+Pin 21: GPIO 9 (MISO) - SPI
+Pin 22: GPIO 25
+Pin 23: GPIO 11 (SCLK) - SPI Clock
+Pin 24: GPIO 8 (CE0) - SPI Chip Select 0
+Pin 25: Ground (GND)
+Pin 26: GPIO 7 (CE1) - SPI Chip Select 1
+Pin 27: ID_SD (I²C EEPROM)
+Pin 28: ID_SC (I²C EEPROM)
+Pin 29: GPIO 5
+Pin 30: Ground (GND)
+Pin 31: GPIO 6
+Pin 32: GPIO 12 - PWM
+Pin 33: GPIO 13 - PWM
+Pin 34: Ground (GND)
+Pin 35: GPIO 19 - PWM
+Pin 36: GPIO 16
+Pin 37: GPIO 26
+Pin 38: GPIO 20
+Pin 39: Ground (GND)
+Pin 40: GPIO 21
