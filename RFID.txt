@@ -1,0 +1,24 @@
+Aim:- Interfacing Raspberry Pi with RFID.
+
+Requirements:- Raspberry Pi, Power Supply, 8GB micro SD card, HDMI cable, Ethernet Cable,Jumper wires, Breadboard,RFID module(RC522).Step 1: Install Python Libraries on Raspberry Pi
+sudo apt update && upgrade
+sudo apt install python3-rpi.gpio
+
+Step 2: Clone the github repo of MFRC522
+git clone https://github.com/pimylifeup/MFRC522-python.git
+
+Step 3: Hardware setup of RFID 
+
+MFRC522 Pin     Raspberry Pi GPIO Pin
+VCC             3.3V (Pin 1)
+GND             GND (Pin 6)
+MOSI            GPIO 10 (MOSI, Pin 19)
+MISO            GPIO 9 (MISO, Pin 21)
+SCK             GPIO 11 (SCK, Pin 23)
+SDA             GPIO 8 (CE0, Pin 24)
+RST             GPIO 25 (Pin 22)
+
+<>Enable I2C via sudo raspi-config>Interfacing options>I2C enable
+<>For installing RPi.GPIO module
+sudo apt install python3-rpi.gpio 
+pip3 install RPi.GPIO

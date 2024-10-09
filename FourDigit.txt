@@ -1,0 +1,29 @@
+Aim:- Displaying Time over 4-Digit 7-Segment Display using Raspberry Pi.
+
+Requirements:- Raspberry Pi, Power Supply, 8GB micro SD card, HDMI cable, Ethernet Cable,Jumper wires, Breadboard,4-Digit 7-Segment Display(5461AS-1).
+
+Step 1: Install Python Libraries on Raspberry Pi
+sudo apt update
+sudo apt install python3-rpi.gpio
+
+Step 3: Connect the Pins to raspberry pi
+
+
+DisplayPin      Function        Raspberry Pi Pin
+A               Segment A       GPIO 2
+B               Segment B       GPIO 3
+C               Segment C       GPIO 4
+D               Segment D       GPIO 17
+E               Segment E       GPIO 27
+F               Segment F       GPIO 22
+G               Segment G       GPIO 10
+DP              Decimal         GPIO 9
+D1              Digit 1         GPIO 11
+D2              Digit 2         GPIO 5
+D3              Digit 3         GPIO 6
+D4              Digit 4         GPIO 13
+
+<>Enable I2C via sudo raspi-config>Interfacing options>I2C enable
+<>For installing RPi.GPIO module
+sudo apt install python3-rpi.gpio 
+pip3 install RPi.GPIO

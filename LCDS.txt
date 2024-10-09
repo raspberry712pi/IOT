@@ -1,0 +1,28 @@
+<>Aim:- Displaying Time over 16x2 LCD Display using Raspberry Pi.
+<>Requirements:- Raspberry Pi,micro SD Card,16x2 LCD with header pins,Breadboard,jumper wires.
+<>Assembling the 16x2 LCD
+
+1.First,snap the header pins,so you have 1 line of 16.
+2.Place the header pins up through the holes of the display. The short side of the header pins should stick up.
+3.Now using a hot soldering iron and same solder, slowly solder each of the pins.
+4.Its now ready for use.
+
+<>Connections
+
+VSS (Pin 1 on LCD) to GND on Raspberry Pi
+VDD (Pin 2 on LCD) to 5V on Raspberry Pi
+VO (Pin 3 on LCD) to the middle pin of the potentiometer
+RS (Pin 4 on LCD) to GPIO 22 (Pin 15) on Raspberry Pi
+RW (Pin 5 on LCD) to GND (for write mode)
+E (Pin 6 on LCD) to GPIO 18 (Pin 12) on Raspberry Pi
+D4 (Pin 11 on LCD) to GPIO 16 (Pin 36) on Raspberry Pi
+D5 (Pin 12 on LCD) to GPIO 11 (Pin 23) on Raspberry Pi
+D6 (Pin 13 on LCD) to GPIO 12 (Pin 32) on Raspberry Pi
+D7 (Pin 14 on LCD) to GPIO 15 (Pin 10) on Raspberry Pi
+A (Pin 15 on LCD) to 5V (if your LCD has a backlight)
+K (Pin 16 on LCD) to GND (if your LCD has a backlight)
+
+<>Enable I2C via sudo raspi-config>Interfacing options>I2C enable
+<>For installing RPi.GPIO module
+sudo apt install python3-rpi.gpio 
+pip3 install RPi.GPIO
